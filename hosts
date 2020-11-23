@@ -25,4 +25,8 @@
 127.0.0.1 patient.notlocal.com
 127.0.0.1 partner.notlocal.com
 
+# this allows us to point a local frontend at a deployed
+# backend without worrying about cookies being rejected
+127.0.0.1 admin.local.<deployed_host>.com
+
 # End of section
